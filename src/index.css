@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import 'typeface-poppins';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'fresh tea';
+  src: url('./assets/font/Freshtea.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fresh_tea {
+  font-family: 'fresh tea';
+}
+
+:root {
+  --primary-color: #64f4ab;
+  --accent-color: #25262a;
+  /* --acent-grad-color: linear-gradient(91deg, #ffaf29 0%, #fecd1a 100%); */
+  --secondary-color: #008080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide the increment and decrement arrows */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide the arrows in Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
